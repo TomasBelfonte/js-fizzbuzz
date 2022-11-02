@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.square {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subSquare {
+    width: calc(100% / 10);
+    aspect-ratio: 1/1;
+    display: inline-block;
+    border: 1px solid;
+}
+
+.bgBlu {
+    background-color: #1389B2;
+}
+
+.bgVerde {
+    background-color: #0CD6A1;
+}
+
+.bgGiallo {
+    background-color: #FFD166;
+}
+
+.bgRosso {
+    background-color: #F0466F;
+}
